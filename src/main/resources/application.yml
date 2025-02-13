@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: weather-test-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/weatherdb
+    username: postgres
+    password: admin
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+openweather:
+  api:
+    key: a1c433bfcbf88fc7b573bef6eb223aca
